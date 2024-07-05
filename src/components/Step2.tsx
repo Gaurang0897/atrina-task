@@ -58,9 +58,9 @@ const Step2 = React.forwardRef(({ ...props }, ref) => {
         id="fName"
         type="text"
         {...register("email", {
-          required: "Email adress is required.",
+          required: "Email address is required.",
         })}
-        placeholder="enter you first name...."
+        placeholder="enter you email address...."
       />
 
       <label htmlFor="lName">Nationality:</label>
@@ -71,7 +71,7 @@ const Step2 = React.forwardRef(({ ...props }, ref) => {
         {...register("nationality", {
           required: "Nationality is required.",
         })}
-        placeholder="enter you first name...."
+        placeholder="enter you Nationality...."
       />
 
       <label htmlFor="contact">Gender:</label>
