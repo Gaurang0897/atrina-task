@@ -31,7 +31,7 @@ const Step2 = React.forwardRef(({ ...props }, ref) => {
 
   useEffect(() => {
     setStep2(isValid);
-  }, [isValid]);
+  }, [isValid, setStep2]);
 
   useImperativeHandle(ref, () => ({
     triggerForm,
@@ -89,4 +89,5 @@ const Step2 = React.forwardRef(({ ...props }, ref) => {
     </form>
   );
 });
+Step2.displayName = "Step2";
 export default Step2;
