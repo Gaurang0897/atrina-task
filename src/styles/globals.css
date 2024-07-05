@@ -31,3 +31,54 @@ body {
     text-wrap: balance;
   }
 }
+
+label {
+  color: lightgray;
+  margin-top: 2rem;
+}
+input,
+select {
+  margin-top: 0.5rem;
+  border-radius: 5px;
+  padding: 5px 10px;
+  color: black;
+}
+.error {
+  color: rgb(219, 77, 77);
+}
+button {
+  min-width: 200px;
+  background-color: gray;
+  border-radius: 8px;
+  min-height: 30px;
+  margin-inline: auto;
+  margin-top: 5rem;
+}
+.line {
+  height: 2px;
+  background-color: white;
+  width: 100%;
+}
+.navBtn {
+  min-width: 30px;
+  min-height: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 100%;
+  background-color: lightgray;
+  color: black;
+  font-weight: 700;
+  cursor: pointer;
+}
+.active {
+  background-color: black;
+  border: 2px solid white;
+  color: white;
+  min-width: 40px;
+  min-height: 40px;
+}
+.green {
+  color: greenyellow;
+  font-size: 20px;
+}
